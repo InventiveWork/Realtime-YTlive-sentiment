@@ -1,0 +1,33 @@
+/* src/App.css */
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+  transition: background-color 0.5s ease; /* Smooth transition for background color change */
+}
+
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+  white-space: pre-wrap; /* Allow wrapping of long JSON */
+}
